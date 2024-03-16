@@ -1,0 +1,114 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+body{
+    background-color:rgb(50, 50, 49);
+   
+}
+.footer2 {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pepe{
+    background-color: black;
+    box-shadow: 0 2px  4px;
+}
+
+.info1 {
+    display: none;
+}
+
+.footer2 nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer2 nav ul li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.footer2 nav ul li:hover {
+    background-color: rgba(211, 211, 211, 0.639);
+}
+
+
+.contenedor {
+    border: 3px solid rgb(169, 4, 4) ;
+    background-color: rgba(243, 238, 238, 0.39);
+    max-width: 800px;
+    margin: 0 auto; 
+    display: block; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+}
+.NOMBRE{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.section{
+    background-color: black;
+
+
+}
+.imag{
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+}
+
+
+#titulo {
+    text-align: center;
+}
+
+
+article {
+    
+    text-align: center;
+}
+
+aside {
+    text-align: center;
+}
+
+
+footer {
+    
+    display: flex; 
+    flex-direction: row;
+}
+.info{
+
+    display: none;
+}
+.dd{
+    border-radius: 50%;
+}
+
+
+
+#extra1:hover ~ #extra1-info{
+    
+    display: block;
+}
+footer div{
+    border: 3px solid black;
+    
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
